@@ -43,7 +43,7 @@ test('a specific note is within the returned notes', async () => {
 
   const contents = response.body.map(r => r.content)
   expect(contents).toContain(
-    'Browser can execute only Javascript'
+    'Browser can only execute Javascript'
   )
 })
 
