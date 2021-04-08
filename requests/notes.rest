@@ -48,3 +48,13 @@ content-type: application/json
     "content": "lol",
     "important": true
 }
+
+###
+POST http://localhost:3001/api/notes/ HTTP/1.1
+content-type: application/json
+
+{
+    "content": "User id of the note creator is at the start sent along the request",
+    "important": true,
+    "userId": "606ec1dd7873232ed8d3182f"
+}
